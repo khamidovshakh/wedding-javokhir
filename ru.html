@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bekzod & Dilnura | 17.01</title>
+        <link rel="stylesheet" href="./css/style.min.css" />
+        <link rel="icon" type="image/x-icon" href="./favicon.png" />
+    </head>
+    <body>
+        <audio
+            id="bg-sound"
+            src="./music.mp3"
+            preload="auto"
+            loop
+            playsinline
+        ></audio>
+
+        <div class="block">
+            <h2>Только для мобильных устройств</h2>
+            <p>Для просмотра откройте этот сайт на телефоне</p>
+        </div>
+
+        <div class="turn-off active">
+            <img src="./public/images/volume-up.svg" alt="" />
+        </div>
+
+        <div id="app">
+            <div class="screen-one">
+                <div class="width">
+                    <img src="./public/images/main-ru.svg" alt="" />
+
+                    <div class="bottom-text">
+                        <dd>
+                            <i>14 февраля 18:00</i>
+                            <i>Ресторан «Samo»</i>
+                        </dd>
+
+                        <span>
+                            Свайпай вниз <br />
+                            для детальной информации
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="screen-two width">
+                <div class="heading">
+                    <h1>
+                        Дорогие родные <br />
+                        и друзья!
+                    </h1>
+                    <p>
+                        С радостью и волнением приглашаем вас разделить с нами
+                        этот счастливый момент в нашей жизни – день нашей
+                        свадьбы!
+                    </p>
+                </div>
+
+                <div class="margin"></div>
+
+                <div class="heading">
+                    <h1>Ждем вас <br /><span>14 февраля 2026</span></h1>
+                </div>
+
+                <div class="wrapper">
+                    <img class="wait" src="./public/images/wait.png" alt="" />
+
+                    <div class="timer">
+                        <h2>Через</h2>
+
+                        <section>
+                            <div class="item">
+                                <h1 id="days">43</h1>
+                                <h2>дней</h2>
+                            </div>
+                            <div class="item">
+                                <h1 id="hours">10</h1>
+                                <h2>часов</h2>
+                            </div>
+                            <div class="item">
+                                <h1 id="minutes">33</h1>
+                                <h2>минут</h2>
+                            </div>
+                            <div class="item">
+                                <h1 id="seconds">22</h1>
+                                <h2>секунд</h2>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin"></div>
+
+            <div class="screen-three">
+                <div class="wrapper">
+                    <dd>
+                        <h2>Локация</h2>
+                        <p>«Samo» ресторан</p>
+                    </dd>
+                    <p class="text">
+                        Наш вечер состоится в стильном пространстве, где детали
+                        говорят сами за себя. Свет, музыка и вкус соединяются
+                        здесь в одном ритме — ритме праздника.
+                    </p>
+
+                    <a href="https://yandex.uz/maps/-/CPA3v8Mn" target="_blank">
+                        <button>Перейти к карте</button>
+                    </a>
+                </div>
+
+                <div class="bottom">
+                    <h2>Сбор гостей <br />18:00</h2>
+                </div>
+            </div>
+
+            <div class="margin"></div>
+
+            <div class="width">
+                <div class="screen-four">
+                    <div class="heading">
+                        <h1>План вечера</h1>
+                    </div>
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="./public/images/Group.svg" alt="" />
+                            <h2>18:00 Сбор гостей</h2>
+                            <p>
+                                Пообщайтесь с родными и друзьями и обятательно
+                                делайте побольше фотографий!
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="./public/images/Group-1.svg" alt="" />
+                            <h2>18:15 Фуршет</h2>
+                            <p>
+                                Попробуйте изысканные блюда и напитки заведения.
+                                Молодожены уже в пути!
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="./public/images/Group-2.svg" alt="" />
+                            <h2>18:30 Выход молодожен</h2>
+                            <p>
+                                Чтобы все гости уже были к этому моменту! Кто
+                                опоздает, тот автоматически учавствует во всех
+                                конкурсах.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <img src="./public/images/Group-3.svg" alt="" />
+                            <h2>18:30 - 22:00 Развлекаемся</h2>
+                            <p>
+                                Танцуем, участвуем в конкурсах, плачем и очень
+                                сильно веселимся весь вечер!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin"></div>
+
+            <div class="screen-seven screen-form">
+                <div class="heading">
+                    <h1>Пройдите опрос</h1>
+                    <p>Пожалуйста, ответьте на пару вопросов ниже.</p>
+                </div>
+
+                <form id="form">
+                    <div>
+                        <label class="label">Имя и Фамилия</label>
+                        <section>
+                            <input
+                                class="text"
+                                type="text"
+                                placeholder="Ваше имя и фамилия"
+                                name="name"
+                                id="name"
+                            />
+                        </section>
+                    </div>
+
+                    <div>
+                        <label class="label"
+                            >Сможете ли присутствовать на нашем
+                            торжестве?</label
+                        >
+                        <dd>
+                            <label for="contactChoice1">
+                                <section>
+                                    <input
+                                        type="radio"
+                                        id="contactChoice1"
+                                        name="willbe"
+                                        value="yes"
+                                    />
+                                    Я с удовольствием приду
+                                </section>
+                            </label>
+                            <label for="contactChoice2">
+                                <section>
+                                    <input
+                                        type="radio"
+                                        id="contactChoice2"
+                                        name="willbe"
+                                        value="no"
+                                    />
+                                    К сожалению, не смогу присутствовать
+                                </section></label
+                            >
+                        </dd>
+                    </div>
+
+                    <button class="white"><span>Отправить</span></button>
+                </form>
+            </div>
+
+            <div class="margin"></div>
+
+            <div class="width">
+                <footer>
+                    <div class="heading">
+                        <h1>Контакты</h1>
+                    </div>
+                    <div class="wrapper">
+                        <div class="phones">
+                            <a href="tel:+998971170048">
+                                <h2>Джавохир (жених)</h2>
+                                <h3>+998909617073</h3>
+                            </a>
+                        </div>
+
+                        <div class="margin"></div>
+
+                        <div class="bottom">
+                            <h1>
+                                Очень ждем! <br />
+                                Ваши...
+                            </h1>
+
+                            <img src="./public/images/main-ru.svg" alt="" />
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+            <div class="margin"></div>
+
+            <a href="http://t.me/khamidovshakh" target="_blank">
+                <aside>
+                    <div class="width">
+                        <h4>Онлайн пригласительные на заказ:</h4>
+                        <p>+998 91 536-76-67</p>
+                    </div>
+                </aside>
+            </a>
+        </div>
+
+        <script>
+            let turn = document.querySelector('.turn-off')
+            let isPlaying = false
+
+            turn.onclick = () => {
+                let myAudio = document.getElementById('bg-sound')
+                if (isPlaying) {
+                    myAudio.pause()
+                    isPlaying = false
+                    turn.innerHTML =
+                        '<img src="./public/images/volume-x.svg" alt="" />'
+                    turn.classList.remove('active')
+                } else {
+                    myAudio.play()
+                    isPlaying = true
+                    turn.innerHTML =
+                        '<img src="./public/images/volume-up.svg" alt="" />'
+                    turn.classList.add('active')
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                let myAudio = document.getElementById('bg-sound')
+                myAudio.volume = 0.4
+                myAudio.loop = true
+
+                function playAudio() {
+                    if (!isPlaying) {
+                        myAudio
+                            .play()
+                            .then(() => {
+                                isPlaying = true
+                                document.removeEventListener(
+                                    'click',
+                                    tryPlayOnInteraction
+                                )
+                                document.removeEventListener(
+                                    'scroll',
+                                    tryPlayOnInteraction
+                                )
+                                document.removeEventListener(
+                                    'touchstart',
+                                    tryPlayOnInteraction
+                                )
+                            })
+                            .catch(error => {
+                                console.log('Play error: ', error)
+                            })
+                    }
+                }
+
+                function tryPlayOnInteraction() {
+                    playAudio()
+                }
+
+                myAudio
+                    .play()
+                    .then(() => {
+                        isPlaying = true
+                    })
+                    .catch(() => {
+                        document.addEventListener(
+                            'click',
+                            tryPlayOnInteraction,
+                            { once: true }
+                        )
+                        document.addEventListener(
+                            'scroll',
+                            tryPlayOnInteraction,
+                            { once: true }
+                        )
+                        document.addEventListener(
+                            'touchstart',
+                            tryPlayOnInteraction,
+                            { once: true }
+                        )
+                    })
+            })
+        </script>
+        <script src="./script.js"></script>
+    </body>
+</html>
