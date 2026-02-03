@@ -1,5 +1,5 @@
-const endpoint =
-    'https://script.google.com/macros/s/AKfycbzdGfoJu5TO2FrwRQHu7Qyl-7VBk1zUv9T6e-UAst-NylEwVYOaPl2n4CpZFuRLI-Ef6A/exec'
+const endpoint = ''
+// 'https://script.google.com/macros/s/AKfycbzdGfoJu5TO2FrwRQHu7Qyl-7VBk1zUv9T6e-UAst-NylEwVYOaPl2n4CpZFuRLI-Ef6A/exec'
 
 const form = document.querySelector('form')
 
@@ -14,6 +14,9 @@ form.onsubmit = async e => {
     const qs = new URLSearchParams()
     fd.forEach((v, k) => qs.append(k, v || '-'))
 
+    alert('in progress')
+
+    return
     try {
         const res = await fetch(`${endpoint}?${qs.toString()}`, {
             method: 'GET'
