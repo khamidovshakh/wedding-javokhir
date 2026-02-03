@@ -371,6 +371,23 @@ form {
     .wait {
         margin: 14px 0;
     }
+    .date {
+        font-weight: 600;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 20px;
+            top: 80%;
+            background-image: url('../public/images/line.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+    }
     .wrapper {
         h2 {
             font-weight: 500;
