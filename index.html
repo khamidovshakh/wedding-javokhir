@@ -11,6 +11,7 @@
         <style>
             body {
                 height: 100vh;
+                background: #000;
             }
             .bg img {
                 position: absolute;
@@ -18,10 +19,10 @@
                 top: 0;
                 right: 0;
                 bottom: 0;
-                height: 100%;
+                height: 70%;
                 width: 100%;
                 object-fit: cover;
-                object-position: center center;
+                object-position: 20% 50%;
                 z-index: 0;
             }
             .bg:before {
@@ -32,8 +33,13 @@
                 bottom: 0;
                 top: 0;
                 width: 100%;
-                height: 100%;
-                background: linear-gradient(0deg, black, transparent);
+                height: 70%;
+                background: linear-gradient(
+                    0deg,
+                    black,
+                    transparent,
+                    transparent
+                );
                 z-index: 1;
             }
             /* Базовые стили для контейнера (на случай, если у body нет стилей) */
@@ -48,7 +54,7 @@
                 align-items: center;
                 z-index: 2;
                 position: absolute;
-                bottom: 15%;
+                bottom: 12%;
                 left: 50%;
                 transform: translateX(-50%);
             }
@@ -131,7 +137,7 @@
         </div>
 
         <div class="bg">
-            <img src="./public/images/lang.png" alt="" />
+            <img src="./public/images/3.png" alt="" />
         </div>
     </body>
 </html>
