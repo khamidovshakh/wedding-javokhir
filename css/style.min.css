@@ -315,6 +315,13 @@ button {
     border-radius: 12px;
     color: #fff;
     padding: 12px;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    &:disabled {
+        opacity: 0.3;
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
     span {
         line-height: 1;
         padding: 10px 0 12px;
